@@ -1,7 +1,7 @@
 import axios from 'axios';
 import uuid from 'uuid';
 const getMovieDetails = (movieName) => {
-    let url = 'http://www.omdbapi.com/?apikey=ff880c11&t=';
+    let url = 'https://www.omdbapi.com/?apikey=ff880c11&t=';
     return axios.get(url + movieName)
 }
 const getInitialData = () => {
