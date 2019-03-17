@@ -1,33 +1,11 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@import './assets/css/fonts.css';
+@import './assets/css/base.css';
+@import './assets/css/header.css';
+@import './assets/css/nav.css';
+@import './assets/css/loading.css';
+@import './assets/css/addMovie.css';
+@import './assets/css/general.css';
+@import './assets/css/movies.css';
+@import './assets/css/moviesCard.css';
+@import './assets/css/modal.css';
+@import './assets/css/About.css';

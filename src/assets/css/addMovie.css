@@ -1,0 +1,43 @@
+.add-section{
+    background-color: #333;
+    text-align: center;
+    padding: 1rem;
+   
+    margin-top: 5rem;
+}
+.add-container{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: fit-content;
+    margin: 2rem auto 3rem;
+    padding: 2rem 4rem;
+    border-radius: 0.5rem;
+}
+.add-title{
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #9C27B0;
+    font-size: 1.8rem;
+}
+.btn-add{
+    padding: 1rem 2rem;
+    margin-left: 2rem;
+    background-color: #fff;
+    transition: 0.3s;
+}
+.btn-add:hover{
+    background-color: #9C27B0;
+    color: #fff;
+}
+.success-msg{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: green;
+    transition: 0.3s;
+}
+@media (min-width:600px){
+    .add-section{
+        clip-path: polygon(5% 0, 100% 0, 100% 75%, 95% 100%,0 100%, 0 25%);
+    }
+}

@@ -1,0 +1,36 @@
+.header{
+    height: 100vh;
+    background-size: cover;
+    font-family: 'PoetsenOne';
+    background-image: url('../img/header.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.heading-primary{
+    background-color: rgba(255,255, 255, 0.5);
+    padding: 2rem 4rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.heading-primary--main{
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 3.5rem;
+}
+.heading-primary--sub{
+    color: #6610f2;
+    font-size: 2.5rem;
+    margin: 1rem;
+    text-transform: capitalize;
+}
+@media (min-width:600px){
+    .heading-primary--main{
+        font-size: 6rem;
+    }
+    .heading-primary--sub{
+        font-size: 4rem;
+    }
+}

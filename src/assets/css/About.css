@@ -1,0 +1,41 @@
+.about-section{
+    background-color: #f6f6f6;
+    padding: 1px 0 5rem;
+}
+.about-container{
+    text-align: center;
+    width: 90%;
+    margin: 5rem auto 0;
+}
+.about-content{
+    background-color: #d6d6d6;
+    padding: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.4rem;
+}
+.about-title{
+    font-size: 3rem;
+    text-transform: uppercase;
+    border-bottom: 0.2rem solid #4CAF50;
+    border-radius: 0.5rem;
+    padding: 0 1.5rem 1rem;
+    width: fit-content;
+    margin: 0 auto 2rem;
+}
+.about-body{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.about-p > a, .about-body > a {
+    text-decoration: none;
+    color: #4CAF50;
+    transition: 0.3s;
+}
+.about-p{
+    margin-top: 1rem;
+}
+@media (min-width:600px){
+    .about-container{
+        width: 60%;
+    }
+}

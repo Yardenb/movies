@@ -1,0 +1,16 @@
+@font-face{
+    font-family: 'PoetsenOne';
+    src: local('PoetsenOne'), url(../fonts/PoetsenOne-Regular.ttf) format('truetype')
+  }
+  @font-face{
+    font-family: 'roboto-regular';
+    src: local('roboto-regular'), url(../fonts/Roboto-Regular.ttf) format('truetype') 
+  }
+  @font-face{
+    font-family: 'roboto-medium';
+    src: local('roboto-medium'), url(../fonts/Roboto-Medium.ttf) format('truetype') 
+  }
+  @font-face{
+    font-family: 'roboto-light';
+    src: local('roboto-light'), url(../fonts/Roboto-Light.ttf) format('truetype') 
+  }
