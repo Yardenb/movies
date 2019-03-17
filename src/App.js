@@ -21,14 +21,14 @@ class App extends Component {
   }
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Header />
           <Nav />
           {this.state.isLoading ? <Loading /> : (
             <React.Fragment>
-              <Route path={process.env.PUBLIC_URL + '/'} component={Home} exact />
-              <Route path={process.env.PUBLIC_URL + '/about'} component={About} />
+              <Route path='/' component={Home} exact />
+              <Route path='/about' component={About} />
             </React.Fragment>
           )}
 
